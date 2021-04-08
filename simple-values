@@ -1,0 +1,49 @@
+print("Hello, world!")
+
+var myVariable = 42
+myVariable = 50
+let myConstant = 42
+
+let implicitInteger = 70
+let implicitDouble = 70.0
+let explicitDouble: Double = 70
+let constantFloat: Float = 4
+
+let label = "The width is "
+let width = 94
+let widthLabel = label + width
+
+let apples = 3
+let oranges = 5
+let appleSummary = "I have \(apples) apples."
+let fruitSummary = "I have \(apples + oranges) pieces of fruit."
+
+let floatone: Float = 4.3
+let floattwo: Float = 5.7
+let sum = "The sum of \(floatone) and \(floattwo) equals \(floatone + floattwo)."
+
+let name = "Lukasz"
+let greeting = "Hello, my name is \(name)."
+
+let quotation = """
+I said "I have \(apples) apples."
+And then I said "I have \(apples + oranges) pieces of fruit."
+"""
+
+var shoppingList = ["catfish", "water", "tulips"]
+shoppingList[1] = "bottle of water"
+
+var occupations = [
+    "Malcolm": "Captain",
+    "Kaylee": "Mechanic",
+ ]
+occupations["Jayne"] = "Public Relations"
+
+shoppingList.append("blue paint")
+print(shoppingList)
+
+let emptyArray = [String]()
+let emptyDictionary = [String: Float]()
+
+shoppingList = []
+occupations = [:]
